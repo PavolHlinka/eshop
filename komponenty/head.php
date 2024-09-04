@@ -1,3 +1,6 @@
+<?php
+include(dirname(__FILE__)."/../session.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
