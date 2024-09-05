@@ -1,5 +1,5 @@
 <?php
-include(dirname(__FILE__)."/../session.php");
+include_once(dirname(__FILE__)."/../session.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">

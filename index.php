@@ -1,12 +1,10 @@
 <?php
-include_once "config.php";
-
+include_once(dirname(__FILE__) . "/config.php");
 
 $sql = "SELECT * FROM `prokukt`";
 
 
 $result = mysqli_query($db, $sql);
-
 
 
 ?>
@@ -45,31 +43,21 @@ include "komponenty/header.php";
         </div>
 
         <!-- Row for Products -->
-       <div class="row">
-       <?php
-
-        while ($produkt = mysqli_fetch_assoc($result)) {
-
-            
-            ?>
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="/eshop/obrazky/<?php echo $produkt["obrazok_url"]; ?>" class="card-img-top" alt="Product 1">
-                    <div class="card-body">
-                        <h5 class="card-title"><?php echo $produkt["meno"]; ?> </h5>
-                        <p class="card-text"><?php echo $produkt["cena"]; ?>€</p>
-                        <a href="#" class="btn btn-dark">Pridať do košíka</a>
-                        <a href="/eshop/produkt.php?id=<?php echo $produkt["produkt_ID"]; ?>" class="btn btn-dark">Zobraziť</a>
-                    </div>
-                </div>
-            </div>
+        <div class="row">
             <?php
 
-        }
 
-        ?>
+
+            while ($produkt = mysqli_fetch_assoc($result)) {
+
+
+                include(dirname(__FILE__) . "/komponenty/kartaproduktu.php");
+
+            }
+
+            ?>
         </div>
-        
+
     </div>
 
 

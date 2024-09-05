@@ -1,3 +1,4 @@
+
 <!-- Header -->
 <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -10,6 +11,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Domov</a>
                     </li>
+                    <?php include(dirname(__FILE__) ."/menu.php" ); ?>
                     <li class="nav-item">
                         <a class="nav-link" href="produkt.php">Produkty</a>
                     </li>
@@ -19,9 +21,37 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login.php">
+                    <?php
+
+                    if(isset($_SESSION["pouzivatel"])) {
+                        ?>
+                        <a class="nav-link" href="/eshop/akcie/odhlasit_sa.php">
+                        <?php
+                        
+                        echo "ahoj ".$_SESSION["pouzivatel"]["meno"]." odhlásiť sa";
+                        ?>
+                        </a>
+                        <?php
+
+
+                    }
+                    else{
+                        ?>
+                            <a class="nav-link" href="login.php">
                             <i class="fas fa-user"></i> <!-- Account Icon -->
                         </a>
+                        <?php
+
+
+
+                    }
+
+                    ?>  
+
+
+
+
+                      
                     </li>
                 </ul>
             </div>
