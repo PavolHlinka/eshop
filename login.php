@@ -1,8 +1,6 @@
 <?php
 include "komponenty/head.php";
-
 include "komponenty/header.php";
-
 ?>
 <section class="vh-100">
   <div class="container h-custom">
@@ -14,15 +12,11 @@ include "komponenty/header.php";
       <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
         <form action="/eshop/akcie/prihlasit_sa.php">
           
-            
-
-        
-
           <!-- Email input -->
           <div data-mdb-input-init class="form-outline mb-4">
             <input type="email" name="email" id="form3Example3" class="form-control form-control-lg"
               placeholder="zadajte email adresu" />
-            <label class="form-label" for="form3Example3">Email addresa</label>
+            <label class="form-label" for="form3Example3">Emailová adresa</label>
           </div>
 
           <!-- Password input -->
@@ -32,25 +26,17 @@ include "komponenty/header.php";
             <label class="form-label" for="form3Example4">Heslo</label>
           </div>
 
-          
-
           <div class="text-center text-lg-start mt-4 pt-2">
             <button  type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg"
               style="padding-left: 2.5rem; padding-right: 2.5rem;">Prihlásiť sa</button>
             
           </div>
-
         </form>
       </div>
     </div>
   </div>
   
 </section>
-
-
-
-
-
 
 <?php
 include "komponenty/footer.php";

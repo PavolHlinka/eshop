@@ -32,15 +32,16 @@ include "komponenty/header.php";
 
 
 
-    <div class="container mt-5 mb-5">
-        <div class="row">
-            <!-- Hero Section with Image and Title -->
-            <div class="col-md-12 text-center mb-5">
-                <img src="https://via.placeholder.com/1200x400" class="img-fluid mb-4" alt="Main Banner">
-                <h1 class="display-4">Welcome to Our E-shop</h1>
-                <p class="lead">Discover the best products at unbeatable prices!</p>
-            </div>
+<div class="container mt-3 mb-3">
+    <div class="row">
+        <!-- Hero Section with Image and Title -->
+        <div class="col-md-12 text-center mb-3">
+            <img src="/eshop/obrazky/opasok1.jpg" class="" alt="Main Banner">
+            <h1 class="display-4">Vítajte v našom E-shope</h1>
+            <p class="lead">Vyberte si z našej ponuky vyšívaných tričiek a mikín</p>
         </div>
+    </div>
+</div>
 
         <!-- Row for Products -->
         <div class="row">

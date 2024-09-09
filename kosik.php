@@ -22,8 +22,9 @@ if (!empty($produkty_z_kosika)) {
 <div class="container">
     <div class="row">
         <?php
+        $celkom_zaprodukty=0;
         if (!empty($result)) {
-            $celkom_zaprodukty=0;
+            
             while ($produkt = mysqli_fetch_assoc($result)) {
 
                 $pocet_za_produkt = $produkty_z_kosika[$produkt["produkt_ID"]];
@@ -48,25 +49,11 @@ if (!empty($produkty_z_kosika)) {
                 <?php
             }
         }
-
-
-
-
         ?>
-
-        
 
     </div>
     <h1>Súčet: <?php echo $celkom_zaprodukty ?>€</h1>
 </div>
-
-
-
-
-
-
-
-
 
 
 <?php

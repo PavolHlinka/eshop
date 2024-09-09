@@ -4,23 +4,20 @@
             <div class="row">
                 <!-- Contact Information -->
                 <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Contact Us</h5>
+                    <h5 class="text-uppercase">Kontaktujte nás</h5>
                     <p>
                         <i class="fas fa-phone-alt"></i> +123 456 7890<br>
-                        <i class="fas fa-envelope"></i> contact@yourbrand.com<br>
-                        <i class="fas fa-map-marker-alt"></i> 123 Your Street, Your City, Your Country
+                        <i class="fas fa-envelope"></i> pavlus131@gmail.com<br>
+                        <i class="fas fa-map-marker-alt"></i> 123 ulica, Korevce, Slovensko
                     </p>
                 </div>
 
                 <!-- Navigation Links -->
                 <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Quick Links</h5>
+                    <h5 class="text-uppercase">Rýchle linky</h5>
                     <ul class="list-unstyled">
                         <li>
                             <a href="index.php" class="text-dark">Domov</a>
-                        </li>
-                        <li>
-                            <a href="produkt.php" class="text-dark">Produkty</a>
                         </li>
                         <li>
                             <a href="kosik.php" class="text-dark">Košík</a>
@@ -33,7 +30,7 @@
 
                 <!-- Social Media Icons -->
                 <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Follow Us</h5>
+                    <h5 class="text-uppercase">Nájdite nás aj tu</h5>
                     <a href="#" class="text-dark mr-2">
                         <i class="fab fa-facebook-f"></i>
                     </a>

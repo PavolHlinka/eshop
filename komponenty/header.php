@@ -13,9 +13,6 @@
                     </li>
                     <?php include(dirname(__FILE__) ."/menu.php" ); ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="produkt.php">Produkty</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="kosik.php">
                             <i class="fas fa-shopping-cart"></i> <!-- Shop Icon -->
                         </a>
